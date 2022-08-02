@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xenonCSE2", "xenonCSE2\xenonCSE2.vcxproj", "{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeAnalysis|Xbox 360 = CodeAnalysis|Xbox 360
+		Debug|Xbox 360 = Debug|Xbox 360
+		Profile_FastCap|Xbox 360 = Profile_FastCap|Xbox 360
+		Profile|Xbox 360 = Profile|Xbox 360
+		Release_LTCG|Xbox 360 = Release_LTCG|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.CodeAnalysis|Xbox 360.ActiveCfg = CodeAnalysis|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.CodeAnalysis|Xbox 360.Build.0 = CodeAnalysis|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Profile_FastCap|Xbox 360.ActiveCfg = Profile_FastCap|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Profile_FastCap|Xbox 360.Build.0 = Profile_FastCap|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Profile|Xbox 360.ActiveCfg = Profile|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Profile|Xbox 360.Build.0 = Profile|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Release_LTCG|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Release_LTCG|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}.Release|Xbox 360.Build.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
