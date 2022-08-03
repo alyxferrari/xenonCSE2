@@ -5,268 +5,85 @@
 
 #include <stddef.h>
 #include <string.h>
+#include <fstream>
+#include <iostream>
 
-static const unsigned char rCredit01[] = {
-	#include "Resource/BITMAP/Credit01.bmp.h"
-};
+unsigned char* readFile(const char* filename) {
+	std::ifstream istrm(filename, std::ifstream::in);
+	std::string contents((std::istreambuf_iterator<char>(istrm)), std::istreambuf_iterator<char>());
+	return (unsigned char*) contents.c_str();
+}
 
-static const unsigned char rCredit02[] = {
-	#include "Resource/BITMAP/Credit02.bmp.h"
-};
-
-static const unsigned char rCredit03[] = {
-	#include "Resource/BITMAP/Credit03.bmp.h"
-};
-
-static const unsigned char rCredit04[] = {
-	#include "Resource/BITMAP/Credit04.bmp.h"
-};
-
-static const unsigned char rCredit05[] = {
-	#include "Resource/BITMAP/Credit05.bmp.h"
-};
-
-static const unsigned char rCredit06[] = {
-	#include "Resource/BITMAP/Credit06.bmp.h"
-};
-
-static const unsigned char rCredit07[] = {
-	#include "Resource/BITMAP/Credit07.bmp.h"
-};
-
-static const unsigned char rCredit08[] = {
-	#include "Resource/BITMAP/Credit08.bmp.h"
-};
-
-static const unsigned char rCredit09[] = {
-	#include "Resource/BITMAP/Credit09.bmp.h"
-};
-
-static const unsigned char rCredit10[] = {
-	#include "Resource/BITMAP/Credit10.bmp.h"
-};
-
-static const unsigned char rCredit11[] = {
-	#include "Resource/BITMAP/Credit11.bmp.h"
-};
-
-static const unsigned char rCredit12[] = {
-	#include "Resource/BITMAP/Credit12.bmp.h"
-};
-
-static const unsigned char rCredit14[] = {
-	#include "Resource/BITMAP/Credit14.bmp.h"
-};
-
-static const unsigned char rCredit15[] = {
-	#include "Resource/BITMAP/Credit15.bmp.h"
-};
-
-static const unsigned char rCredit16[] = {
-	#include "Resource/BITMAP/Credit16.bmp.h"
-};
-
-static const unsigned char rCredit17[] = {
-	#include "Resource/BITMAP/Credit17.bmp.h"
-};
-
-static const unsigned char rCredit18[] = {
-	#include "Resource/BITMAP/Credit18.bmp.h"
-};
-
-static const unsigned char rpixel[] = {
+static const unsigned char* rCredit01 = readFile("game:\\Resource\\BITMAP\\Credit01.bmp");
+static const unsigned char* rCredit02 = readFile("game:\\Resource\\BITMAP\\Credit02.bmp");
+static const unsigned char* rCredit03 = readFile("game:\\Resource\\BITMAP\\Credit03.bmp");
+static const unsigned char* rCredit04 = readFile("game:\\Resource\\BITMAP\\Credit04.bmp");
+static const unsigned char* rCredit05 = readFile("game:\\Resource\\BITMAP\\Credit05.bmp");
+static const unsigned char* rCredit06 = readFile("game:\\Resource\\BITMAP\\Credit06.bmp");
+static const unsigned char* rCredit07 = readFile("game:\\Resource\\BITMAP\\Credit07.bmp");
+static const unsigned char* rCredit08 = readFile("game:\\Resource\\BITMAP\\Credit08.bmp");
+static const unsigned char* rCredit09 = readFile("game:\\Resource\\BITMAP\\Credit09.bmp");
+static const unsigned char* rCredit10 = readFile("game:\\Resource\\BITMAP\\Credit10.bmp");
+static const unsigned char* rCredit11 = readFile("game:\\Resource\\BITMAP\\Credit11.bmp");
+static const unsigned char* rCredit12 = readFile("game:\\Resource\\BITMAP\\Credit12.bmp");
+static const unsigned char* rCredit14 = readFile("game:\\Resource\\BITMAP\\Credit14.bmp");
+static const unsigned char* rCredit15 = readFile("game:\\Resource\\BITMAP\\Credit15.bmp");
+static const unsigned char* rCredit16 = readFile("game:\\Resource\\BITMAP\\Credit16.bmp");
+static const unsigned char* rCredit17 = readFile("game:\\Resource\\BITMAP\\Credit17.bmp");
+static const unsigned char* rCredit18 = readFile("game:\\Resource\\BITMAP\\Credit18.bmp");
 #ifdef JAPANESE
-	#include "Resource/BITMAP/pixel_jp.bmp.h"
+static const unsigned char* rpixel = readFile("game:\\Resource\\BITMAP\\pixel_jp.bmp");
 #else
-	#include "Resource/BITMAP/pixel.bmp.h"
+static const unsigned char* rpixel = readFile("game:\\Resource\\BITMAP\\pixel.bmp");
 #endif
-};
-
-static const unsigned char rCURSOR_IKA[] = {
-	#include "Resource/CURSOR/CURSOR_IKA.png.h"
-};
-
-static const unsigned char rCURSOR_NORMAL[] = {
-	#include "Resource/CURSOR/CURSOR_NORMAL.png.h"
-};
-
+static const unsigned char* rCURSOR_IKA = readFile("game:\\Resource\\CURSOR\\CURSOR_IKA.png");
+static const unsigned char* rCURSOR_NORMAL = readFile("game:\\Resource\\CURSOR\\CURSOR_NORMAL.png");
 #ifndef _WIN32
-static const unsigned char rICON_MINI[] = {
-	#include "Resource/ICON/ICON_MINI.png.h"
-};
+static const unsigned char* rICON_MINI = readFile("game:\\Resource\\ICON\\ICON_MINI.png");
 #endif
-
-static const unsigned char rAccess[] = {
-	#include "Resource/ORG/Access.org.h"
-};
-
-static const unsigned char rAnzen[] = {
-	#include "Resource/ORG/Anzen.org.h"
-};
-
-static const unsigned char rBalcony[] = {
-	#include "Resource/ORG/Balcony.org.h"
-};
-
-static const unsigned char rBallos[] = {
-	#include "Resource/ORG/Ballos.org.h"
-};
-
-static const unsigned char rBreakDown[] = {
-	#include "Resource/ORG/BreakDown.org.h"
-};
-
-static const unsigned char rCemetery[] = {
-	#include "Resource/ORG/Cemetery.org.h"
-};
-
-static const unsigned char rCurly[] = {
-	#include "Resource/ORG/Curly.org.h"
-};
-
-static const unsigned char rDr[] = {
-	#include "Resource/ORG/Dr.org.h"
-};
-
-static const unsigned char rEnding[] = {
-	#include "Resource/ORG/Ending.org.h"
-};
-
-static const unsigned char rEscape[] = {
-	#include "Resource/ORG/Escape.org.h"
-};
-
-static const unsigned char rFanfale1[] = {
-	#include "Resource/ORG/Fanfale1.org.h"
-};
-
-static const unsigned char rFanfale2[] = {
-	#include "Resource/ORG/Fanfale2.org.h"
-};
-
-static const unsigned char rFanfale3[] = {
-	#include "Resource/ORG/Fanfale3.org.h"
-};
-
-static const unsigned char rFireEye[] = {
-	#include "Resource/ORG/FireEye.org.h"
-};
-
-static const unsigned char rGameover[] = {
-	#include "Resource/ORG/Gameover.org.h"
-};
-
-static const unsigned char rGinsuke[] = {
-	#include "Resource/ORG/Ginsuke.org.h"
-};
-
-static const unsigned char rGrand[] = {
-	#include "Resource/ORG/Grand.org.h"
-};
-
-static const unsigned char rGravity[] = {
-	#include "Resource/ORG/Gravity.org.h"
-};
-
-static const unsigned char rHell[] = {
-	#include "Resource/ORG/Hell.org.h"
-};
-
-static const unsigned char rironH[] = {
-	#include "Resource/ORG/ironH.org.h"
-};
-
-static const unsigned char rJenka[] = {
-	#include "Resource/ORG/Jenka.org.h"
-};
-
-static const unsigned char rJenka2[] = {
-	#include "Resource/ORG/Jenka2.org.h"
-};
-
-static const unsigned char rKodou[] = {
-	#include "Resource/ORG/Kodou.org.h"
-};
-
-static const unsigned char rLastBtl3[] = {
-	#include "Resource/ORG/LastBtl3.org.h"
-};
-
-static const unsigned char rLastBtl[] = {
-	#include "Resource/ORG/LastBtl.org.h"
-};
-
-static const unsigned char rLastCave[] = {
-	#include "Resource/ORG/LastCave.org.h"
-};
-
-static const unsigned char rMarine[] = {
-	#include "Resource/ORG/Marine.org.h"
-};
-
-static const unsigned char rMaze[] = {
-	#include "Resource/ORG/Maze.org.h"
-};
-
-static const unsigned char rMDown2[] = {
-	#include "Resource/ORG/MDown2.org.h"
-};
-
-static const unsigned char rMura[] = {
-	#include "Resource/ORG/Mura.org.h"
-};
-
-static const unsigned char rOside[] = {
-	#include "Resource/ORG/Oside.org.h"
-};
-
-static const unsigned char rPlant[] = {
-	#include "Resource/ORG/Plant.org.h"
-};
-
-static const unsigned char rquiet[] = {
-	#include "Resource/ORG/quiet.org.h"
-};
-
-static const unsigned char rRequiem[] = {
-	#include "Resource/ORG/Requiem.org.h"
-};
-
-static const unsigned char rToroko[] = {
-	#include "Resource/ORG/Toroko.org.h"
-};
-
-static const unsigned char rVivi[] = {
-	#include "Resource/ORG/Vivi.org.h"
-};
-
-static const unsigned char rWanpak2[] = {
-	#include "Resource/ORG/Wanpak2.org.h"
-};
-
-static const unsigned char rWanpaku[] = {
-	#include "Resource/ORG/Wanpaku.org.h"
-};
-
-static const unsigned char rWeed[] = {
-	#include "Resource/ORG/Weed.org.h"
-};
-
-static const unsigned char rWhite[] = {
-	#include "Resource/ORG/White.org.h"
-};
-
-static const unsigned char rXXXX[] = {
-	#include "Resource/ORG/XXXX.org.h"
-};
-
-static const unsigned char rZonbie[] = {
-	#include "Resource/ORG/Zonbie.org.h"
-};
-
-static const unsigned char rWave[] = {
-	#include "Resource/WAVE/Wave.dat.h"
-};
+static const unsigned char* rAccess = readFile("game:\\Resource\\ORG\\Access.org");
+static const unsigned char* rAnzen = readFile("game:\\Resource\\ORG\\Anzen.org");
+static const unsigned char* rBalcony = readFile("game:\\Resource\\ORG\\Balcony.org");
+static const unsigned char* rBallos = readFile("game:\\Resource\\ORG\\Ballos.org");
+static const unsigned char* rBreakDown = readFile("game:\\Resource\\ORG\\BreakDown.org");
+static const unsigned char* rCemetery = readFile("game:\\Resource\\ORG\\Cemetery.org");
+static const unsigned char* rCurly = readFile("game:\\Resource\\ORG\\Curly.org");
+static const unsigned char* rDr = readFile("game:\\Resource\\ORG\\Dr.org");
+static const unsigned char* rEnding = readFile("game:\\Resource\\ORG\\Ending.org");
+static const unsigned char* rEscape = readFile("game:\\Resource\\ORG\\Escape.org");
+static const unsigned char* rFanfale1 = readFile("game:\\Resource\\ORG\\Fanfale1.org");
+static const unsigned char* rFanfale2 = readFile("game:\\Resource\\ORG\\Fanfale2.org");
+static const unsigned char* rFanfale3 = readFile("game:\\Resource\\ORG\\Fanfale3.org");
+static const unsigned char* rFireEye = readFile("game:\\Resource\\ORG\\FireEye.org");
+static const unsigned char* rGameover = readFile("game:\\Resource\\ORG\\Gameover.org");
+static const unsigned char* rGinsuke = readFile("game:\\Resource\\ORG\\Ginsuke.org");
+static const unsigned char* rGrand = readFile("game:\\Resource\\ORG\\Grand.org");
+static const unsigned char* rGravity = readFile("game:\\Resource\\ORG\\Gravity.org");
+static const unsigned char* rHell = readFile("game:\\Resource\\ORG\\Hell.org");
+static const unsigned char* rironH = readFile("game:\\Resource\\ORG\\ironH.org");
+static const unsigned char* rJenka = readFile("game:\\Resource\\ORG\\Jenka.org");
+static const unsigned char* rJenka2 = readFile("game:\\Resource\\ORG\\Jenka2.org");
+static const unsigned char* rKodou = readFile("game:\\Resource\\ORG\\Kodou.org");
+static const unsigned char* rLastBtl3 = readFile("game:\\Resource\\ORG\\LastBtl3.org");
+static const unsigned char* rLastBtl = readFile("game:\\Resource\\ORG\\LastBtl.org");
+static const unsigned char* rLastCave = readFile("game:\\Resource\\ORG\\LastCave.org");
+static const unsigned char* rMarine = readFile("game:\\Resource\\ORG\\Marine.org");
+static const unsigned char* rMaze = readFile("game:\\Resource\\ORG\\Maze.org");
+static const unsigned char* rMDown2 = readFile("game:\\Resource\\ORG\\MDown2.org");
+static const unsigned char* rMura = readFile("game:\\Resource\\ORG\\Mura.org");
+static const unsigned char* rOside = readFile("game:\\Resource\\ORG\\Oside.org");
+static const unsigned char* rPlant = readFile("game:\\Resource\\ORG\\Plant.org");
+static const unsigned char* rquiet = readFile("game:\\Resource\\ORG\\quiet.org");
+static const unsigned char* rRequiem = readFile("game:\\Resource\\ORG\\Requiem.org");
+static const unsigned char* rToroko = readFile("game:\\Resource\\ORG\\Toroko.org");
+static const unsigned char* rVivi = readFile("game:\\Resource\\ORG\\Toroko.org");
+static const unsigned char* rWanpak2 = readFile("game:\\Resource\\ORG\\Wanpak2.org");
+static const unsigned char* rWanpaku = readFile("game:\\Resource\\ORG\\Wanpak2.org");
+static const unsigned char* rWeed = readFile("game:\\Resource\\ORG\\Weed.org");
+static const unsigned char* rWhite = readFile("game:\\Resource\\ORG\\White.org");
+static const unsigned char* rXXXX = readFile("game:\\Resource\\ORG\\XXXX.org");
+static const unsigned char* rZonbie = readFile("game:\\Resource\\ORG\\Zonbie.org");
+static const unsigned char* rWave = readFile("game:\\Resource\\WAVE\\Wave.dat");
 
 static const struct
 {

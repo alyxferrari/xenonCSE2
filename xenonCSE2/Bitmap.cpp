@@ -12,7 +12,7 @@
 #define STBI_ONLY_PNG
 #define STBI_NO_LINEAR
 #define STBI_NO_STDIO
-#include "../external/stb_image.h"
+#include "stb_image.h"
 
 #include "File.h"
 

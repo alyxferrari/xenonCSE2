@@ -26,6 +26,159 @@
       <Platform>Xbox 360</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArmsItem.h" />
+    <ClInclude Include="Attributes.h" />
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="Backends\Audio.h" />
+    <ClInclude Include="Backends\Audio\SoftwareMixer\Backend.h" />
+    <ClInclude Include="Backends\Audio\SoftwareMixer\Mixer.h" />
+    <ClInclude Include="Backends\Controller.h" />
+    <ClInclude Include="Backends\Misc.h" />
+    <ClInclude Include="Backends\Rendering.h" />
+    <ClInclude Include="Backends\Rendering\Window\Software.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossAlmo1.h" />
+    <ClInclude Include="BossAlmo2.h" />
+    <ClInclude Include="BossBallos.h" />
+    <ClInclude Include="BossFrog.h" />
+    <ClInclude Include="BossIronH.h" />
+    <ClInclude Include="BossLife.h" />
+    <ClInclude Include="BossOhm.h" />
+    <ClInclude Include="BossPress.h" />
+    <ClInclude Include="BossTwinD.h" />
+    <ClInclude Include="BossX.h" />
+    <ClInclude Include="BulHit.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Caret.h" />
+    <ClInclude Include="CommonDefines.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="Ending.h" />
+    <ClInclude Include="Escape.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="Flags.h" />
+    <ClInclude Include="Flash.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Generic.h" />
+    <ClInclude Include="GenericLoad.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="KeyControl.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapName.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="MyChar.h" />
+    <ClInclude Include="MycHit.h" />
+    <ClInclude Include="MycParam.h" />
+    <ClInclude Include="NpcAct.h" />
+    <ClInclude Include="NpChar.h" />
+    <ClInclude Include="NpcHit.h" />
+    <ClInclude Include="NpcTbl.h" />
+    <ClInclude Include="Organya.h" />
+    <ClInclude Include="PixTone.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelStage.h" />
+    <ClInclude Include="Shoot.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Tags.h" />
+    <ClInclude Include="TextScr.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="ValueView.h" />
+    <ClInclude Include="WindowsWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArmsItem.cpp" />
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="Backends\Audio\NullAudio.cpp" />
+    <ClCompile Include="Backends\Audio\SoftwareMixer.cpp" />
+    <ClCompile Include="Backends\Audio\SoftwareMixer\miniaudio.cpp" />
+    <ClCompile Include="Backends\Audio\SoftwareMixer\Mixer.cpp" />
+    <ClCompile Include="Backends\Controller\NullController.cpp" />
+    <ClCompile Include="Backends\Platform\NullPlatform.cpp" />
+    <ClCompile Include="Backends\Rendering\Software.cpp" />
+    <ClCompile Include="Backends\Rendering\Window\Software\NullSoftwareWindowRender.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossAlmo1.cpp" />
+    <ClCompile Include="BossAlmo2.cpp" />
+    <ClCompile Include="BossBallos.cpp" />
+    <ClCompile Include="BossFrog.cpp" />
+    <ClCompile Include="BossIronH.cpp" />
+    <ClCompile Include="BossLife.cpp" />
+    <ClCompile Include="BossOhm.cpp" />
+    <ClCompile Include="BossPress.cpp" />
+    <ClCompile Include="BossTwinD.cpp" />
+    <ClCompile Include="BossX.cpp" />
+    <ClCompile Include="BulHit.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Caret.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="Ending.cpp" />
+    <ClCompile Include="Escape.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Flags.cpp" />
+    <ClCompile Include="Flash.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Generic.cpp" />
+    <ClCompile Include="GenericLoad.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="KeyControl.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapName.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="MyChar.cpp" />
+    <ClCompile Include="MycHit.cpp" />
+    <ClCompile Include="MycParam.cpp" />
+    <ClCompile Include="NpcAct000.cpp" />
+    <ClCompile Include="NpcAct020.cpp" />
+    <ClCompile Include="NpcAct040.cpp" />
+    <ClCompile Include="NpcAct060.cpp" />
+    <ClCompile Include="NpcAct080.cpp" />
+    <ClCompile Include="NpcAct100.cpp" />
+    <ClCompile Include="NpcAct120.cpp" />
+    <ClCompile Include="NpcAct140.cpp" />
+    <ClCompile Include="NpcAct160.cpp" />
+    <ClCompile Include="NpcAct180.cpp" />
+    <ClCompile Include="NpcAct200.cpp" />
+    <ClCompile Include="NpcAct220.cpp" />
+    <ClCompile Include="NpcAct240.cpp" />
+    <ClCompile Include="NpcAct260.cpp" />
+    <ClCompile Include="NpcAct280.cpp" />
+    <ClCompile Include="NpcAct300.cpp" />
+    <ClCompile Include="NpcAct320.cpp" />
+    <ClCompile Include="NpcAct340.cpp" />
+    <ClCompile Include="NpChar.cpp" />
+    <ClCompile Include="NpcHit.cpp" />
+    <ClCompile Include="NpcTbl.cpp" />
+    <ClCompile Include="Organya.cpp" />
+    <ClCompile Include="PixTone.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="SelStage.cpp" />
+    <ClCompile Include="Shoot.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="TextScr.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="ValueView.cpp" />
+    <ClCompile Include="Xbox360Platform.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DA7877E2-C5C9-4387-BF79-9D19A594EB1A}</ProjectGuid>
     <Keyword>Xbox360Proj</Keyword>
@@ -220,6 +373,7 @@
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PreprocessorDefinitions>NDEBUG;_XBOX;LTCG</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Alyx Ferrari\Documents\GitHub\xenonCSE2\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -230,8 +384,6 @@
       <AdditionalDependencies>xapilib.lib;d3d9ltcg.lib;d3dx9.lib;xgraphics.lib;xboxkrnl.lib;xnet.lib;xaudio2.lib;xact3ltcg.lib;x3daudioltcg.lib;xmcoreltcg.lib;vcomp.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

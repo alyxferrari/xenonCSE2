@@ -14,7 +14,7 @@
 #include <string>
 
 #ifdef _3DS
- #include <3ds.h>
+#include <3ds.h>
 #endif
 
 #include "WindowsWrapper.h"
@@ -731,13 +731,13 @@ void InitTextObject(const char *name)
 	switch (mag)
 	{
 		case 1:
-			bitmap_path = gDataPath + "/Font/font_bitmap_6x12.png";
-			metadata_path = gDataPath + "/Font/font_bitmap_6x12.dat";
+			bitmap_path = gDataPath + "\\Font\\font_bitmap_6x12.png";
+			metadata_path = gDataPath + "\\Font\\font_bitmap_6x12.dat";
 			break;
 
 		case 2:
-			bitmap_path = gDataPath + "/Font/font_bitmap_10x20.png";
-			metadata_path = gDataPath + "/Font/font_bitmap_10x20.dat";
+			bitmap_path = gDataPath + "\\Font\\font_bitmap_10x20.png";
+			metadata_path = gDataPath + "\\Font\\font_bitmap_10x20.dat";
 			break;
 	}
 

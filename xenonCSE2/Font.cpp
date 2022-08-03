@@ -1275,7 +1275,7 @@ Font* LoadBitmapFont(const char *bitmap_path, const char *metadata_path)
 					size_t atlas_entry_width = font->glyph_slot_width;
 					size_t atlas_entry_height = font->glyph_slot_height;
 
-					size_t atlas_columns = ceil(sqrt(atlas_entry_width * atlas_entry_height * TOTAL_GLYPH_SLOTS) / atlas_entry_width);
+					size_t atlas_columns = ceil(sqrt((double) (atlas_entry_width * atlas_entry_height * TOTAL_GLYPH_SLOTS)) / atlas_entry_width);
 					size_t atlas_rows = (TOTAL_GLYPH_SLOTS + (atlas_columns - 1)) / atlas_columns;
 
 					font->atlas = RenderBackend_CreateGlyphAtlas(atlas_columns * atlas_entry_width, atlas_rows * atlas_entry_height);

@@ -9,5 +9,510 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Header Files\Backends">
+      <UniqueIdentifier>{cd22c115-e443-49a9-9cb3-39d59f5af6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Audio">
+      <UniqueIdentifier>{47ad9c46-4f8d-454e-8aea-d0f4651b3620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Controller">
+      <UniqueIdentifier>{ab557a19-1f3f-4824-8b2a-f85a0ed0f81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Platform">
+      <UniqueIdentifier>{b65718ee-0f99-4ccc-90dc-8778ec057139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Rendering">
+      <UniqueIdentifier>{3a01329b-6074-417b-a44f-49496a92a7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Shared">
+      <UniqueIdentifier>{39c1cf2c-5eb2-4f27-b2f6-1646254d323e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Audio\SoftwareMixer">
+      <UniqueIdentifier>{d5a2747b-cd46-478c-abba-a409a143b0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Rendering\Window">
+      <UniqueIdentifier>{036d0c2c-aa02-4689-9175-a3193fd5bf54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backends\Rendering\Window\Software">
+      <UniqueIdentifier>{ceaaaca0-b60b-4a6a-9765-693a7cc65092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends">
+      <UniqueIdentifier>{68998355-714e-4801-b898-6fe156e8ea12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Audio">
+      <UniqueIdentifier>{227f0f66-b292-40b5-83f7-9ec9cb4e2892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Controller">
+      <UniqueIdentifier>{b99a2c1a-a6aa-4308-bf15-cf87d5bc426a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Platform">
+      <UniqueIdentifier>{bf3f49d7-5222-48e3-a13d-ca2faac3e270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Rendering">
+      <UniqueIdentifier>{110f8a4c-2f7e-45c4-8135-a475cad37e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Shared">
+      <UniqueIdentifier>{380c20d0-8847-4aff-9076-24309487011b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Audio\SoftwareMixer">
+      <UniqueIdentifier>{7d4c87f9-5e00-4f79-bb27-deb7ac904134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Rendering\Window">
+      <UniqueIdentifier>{edb68723-0bb7-4116-8ed9-8875476ccff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backends\Rendering\Window\Software">
+      <UniqueIdentifier>{14bdaa7e-8f7f-4837-9e4e-922dec540160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArmsItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAlmo1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAlmo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBallos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossIronH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossLife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossOhm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTwinD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulHit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Caret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Escape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MycHit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MycParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcAct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NpChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcHit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcTbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Organya.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixTone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelStage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Audio.h">
+      <Filter>Header Files\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Controller.h">
+      <Filter>Header Files\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Misc.h">
+      <Filter>Header Files\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Rendering.h">
+      <Filter>Header Files\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Audio\SoftwareMixer\Backend.h">
+      <Filter>Header Files\Backends\Audio\SoftwareMixer</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Audio\SoftwareMixer\Mixer.h">
+      <Filter>Header Files\Backends\Audio\SoftwareMixer</Filter>
+    </ClInclude>
+    <ClInclude Include="Backends\Rendering\Window\Software.h">
+      <Filter>Header Files\Backends\Rendering\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Backends\Audio\SoftwareMixer.cpp">
+      <Filter>Source Files\Backends\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Rendering\Software.cpp">
+      <Filter>Source Files\Backends\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Audio\SoftwareMixer\miniaudio.cpp">
+      <Filter>Source Files\Backends\Audio\SoftwareMixer</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Audio\SoftwareMixer\Mixer.cpp">
+      <Filter>Source Files\Backends\Audio\SoftwareMixer</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Audio\NullAudio.cpp">
+      <Filter>Source Files\Backends\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Controller\NullController.cpp">
+      <Filter>Source Files\Backends\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Rendering\Window\Software\NullSoftwareWindowRender.cpp">
+      <Filter>Source Files\Backends\Rendering\Window\Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Backends\Platform\NullPlatform.cpp">
+      <Filter>Source Files\Backends\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmsItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAlmo1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAlmo2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBallos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossIronH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossLife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossOhm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTwinD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulHit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Caret.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Escape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Generic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyChar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MycHit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MycParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct020.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct040.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct060.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct080.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct100.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct120.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct140.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct160.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct180.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct220.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct240.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct260.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct280.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct300.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct320.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcAct340.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpChar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcHit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcTbl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Organya.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixTone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelStage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xbox360Platform.cpp">
+      <Filter>Source Files\Backends\Platform</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,6 +1,8 @@
 // Released under the MIT licence.
 // See LICENCE.txt for details.
 
+#ifndef _XBOX
+
 #include "Backend.h"
 
 #include <stddef.h>
@@ -168,3 +170,5 @@ void SoftwareMixerBackend_UnlockOrganyaMutex(void)
 {
 	ma_mutex_unlock(&organya_mutex);
 }
+
+#endif // closes `ifndef _XBOX`

@@ -1,6 +1,8 @@
 // Released under the MIT licence.
 // See LICENCE.txt for details.
 
+#ifndef _XBOX
+
 #include "../Audio.h"
 
 #include <stddef.h>
@@ -192,3 +194,5 @@ void AudioBackend_SetOrganyaTimer(unsigned int milliseconds)
 
 	SoftwareMixerBackend_UnlockOrganyaMutex();
 }
+
+#endif
